@@ -19,8 +19,8 @@
 		9D51246B275BA5E10095DE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D512440275BA5E10095DE5A /* Assets.xcassets */; };
 		9D51247D275BA7580095DE5A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51247C275BA7580095DE5A /* NotificationView.swift */; };
 		9D51247E275BA7580095DE5A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51247C275BA7580095DE5A /* NotificationView.swift */; };
-		9D512481275BA9890095DE5A /* NotificationInUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512480275BA9890095DE5A /* NotificationInUse.swift */; };
-		9D512482275BA9890095DE5A /* NotificationInUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512480275BA9890095DE5A /* NotificationInUse.swift */; };
+		9D512481275BA9890095DE5A /* NotificationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512480275BA9890095DE5A /* NotificationDemo.swift */; };
+		9D512482275BA9890095DE5A /* NotificationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512480275BA9890095DE5A /* NotificationDemo.swift */; };
 		9D512484275BB7AE0095DE5A /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512483275BB7AD0095DE5A /* BottomSheetView.swift */; };
 		9D512485275BB7AE0095DE5A /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512483275BB7AD0095DE5A /* BottomSheetView.swift */; };
 		9D512487275BBA710095DE5A /* BottomSheetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512486275BBA710095DE5A /* BottomSheetDemo.swift */; };
@@ -59,7 +59,7 @@
 		9D512464275BA5E10095DE5A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		9D51247A275BA6440095DE5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D51247C275BA7580095DE5A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		9D512480275BA9890095DE5A /* NotificationInUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationInUse.swift; sourceTree = "<group>"; };
+		9D512480275BA9890095DE5A /* NotificationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDemo.swift; sourceTree = "<group>"; };
 		9D512483275BB7AD0095DE5A /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		9D512486275BBA710095DE5A /* BottomSheetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,7 +170,7 @@
 				9D512486275BBA710095DE5A /* BottomSheetDemo.swift */,
 				9D512483275BB7AD0095DE5A /* BottomSheetView.swift */,
 				9D51247C275BA7580095DE5A /* NotificationView.swift */,
-				9D512480275BA9890095DE5A /* NotificationInUse.swift */,
+				9D512480275BA9890095DE5A /* NotificationDemo.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,7 +336,7 @@
 				9D512468275BA5E10095DE5A /* ContentView.swift in Sources */,
 				9D512487275BBA710095DE5A /* BottomSheetDemo.swift in Sources */,
 				9D512484275BB7AE0095DE5A /* BottomSheetView.swift in Sources */,
-				9D512481275BA9890095DE5A /* NotificationInUse.swift in Sources */,
+				9D512481275BA9890095DE5A /* NotificationDemo.swift in Sources */,
 				9D512466275BA5E10095DE5A /* ViewBuilderDemosApp.swift in Sources */,
 				9D51247D275BA7580095DE5A /* NotificationView.swift in Sources */,
 			);
@@ -349,7 +349,7 @@
 				9D512469275BA5E10095DE5A /* ContentView.swift in Sources */,
 				9D512488275BBA710095DE5A /* BottomSheetDemo.swift in Sources */,
 				9D512485275BB7AE0095DE5A /* BottomSheetView.swift in Sources */,
-				9D512482275BA9890095DE5A /* NotificationInUse.swift in Sources */,
+				9D512482275BA9890095DE5A /* NotificationDemo.swift in Sources */,
 				9D512467275BA5E10095DE5A /* ViewBuilderDemosApp.swift in Sources */,
 				9D51247E275BA7580095DE5A /* NotificationView.swift in Sources */,
 			);

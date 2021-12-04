@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: { NotificationInUse() }, label: { Text("Notification In Use") })
+                NavigationLink(destination: { NotificationDemo() }, label: { Text("Notification Demo") })
                 NavigationLink(destination: { BottomSheetDemo() }, label: { Text("Bottom Sheet Demo") })
             }
         }

@@ -1,5 +1,5 @@
 //
-//  NotificationInUse.swift
+//  NotificationDemo.swift
 //  ViewBuilderDemos
 //
 //  Created by Rudolf Farkas on 04.12.21.
@@ -8,7 +8,7 @@
 // https://swiftwithmajid.com/2019/12/18/the-power-of-viewbuilder-in-swiftui/
 import SwiftUI
 
-struct NotificationInUse: View {
+struct NotificationDemo: View {
     @State private var notificationShown = false
 
     var body: some View {
@@ -30,6 +30,6 @@ struct NotificationInUse: View {
 
 struct NotificationInUse_Previews: PreviewProvider {
     static var previews: some View {
-        NotificationInUse()
+        NotificationDemo()
     }
 }
