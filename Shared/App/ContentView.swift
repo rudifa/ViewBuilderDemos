@@ -18,7 +18,9 @@ struct ContentView: View {
                 NavigationLink(destination: { GridStackDemo() }, label: {
                     Text("Grid Stack Demo")
                 })
-            }
+                NavigationLink(destination: { ForEachWithIndicesView() }, label: {
+                    Text("ForEach With Indices")
+                })            }
         }
     }
 }
