@@ -17,6 +17,10 @@
 		9D512469275BA5E10095DE5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51243F275BA5DF0095DE5A /* ContentView.swift */; };
 		9D51246A275BA5E10095DE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D512440275BA5E10095DE5A /* Assets.xcassets */; };
 		9D51246B275BA5E10095DE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D512440275BA5E10095DE5A /* Assets.xcassets */; };
+		9D51247D275BA7580095DE5A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51247C275BA7580095DE5A /* NotificationView.swift */; };
+		9D51247E275BA7580095DE5A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51247C275BA7580095DE5A /* NotificationView.swift */; };
+		9D512481275BA9890095DE5A /* NotificationInUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512480275BA9890095DE5A /* NotificationInUse.swift */; };
+		9D512482275BA9890095DE5A /* NotificationInUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D512480275BA9890095DE5A /* NotificationInUse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,9 @@
 		9D51245E275BA5E10095DE5A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D512462275BA5E10095DE5A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9D512464275BA5E10095DE5A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9D51247A275BA6440095DE5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D51247C275BA7580095DE5A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9D512480275BA9890095DE5A /* NotificationInUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationInUse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +93,7 @@
 		9D512438275BA5DE0095DE5A = {
 			isa = PBXGroup;
 			children = (
+				9D51247A275BA6440095DE5A /* README.md */,
 				9D51243D275BA5DF0095DE5A /* Shared */,
 				9D51244C275BA5E10095DE5A /* macOS */,
 				9D512455275BA5E10095DE5A /* Tests iOS */,
@@ -97,9 +105,8 @@
 		9D51243D275BA5DF0095DE5A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9D51243E275BA5DF0095DE5A /* ViewBuilderDemosApp.swift */,
-				9D51243F275BA5DF0095DE5A /* ContentView.swift */,
-				9D512440275BA5E10095DE5A /* Assets.xcassets */,
+				9D51247B275BA72B0095DE5A /* App */,
+				9D51247F275BA75E0095DE5A /* View */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -139,6 +146,25 @@
 				9D512464275BA5E10095DE5A /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9D51247B275BA72B0095DE5A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9D51243F275BA5DF0095DE5A /* ContentView.swift */,
+				9D51243E275BA5DF0095DE5A /* ViewBuilderDemosApp.swift */,
+				9D512440275BA5E10095DE5A /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9D51247F275BA75E0095DE5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D51247C275BA7580095DE5A /* NotificationView.swift */,
+				9D512480275BA9890095DE5A /* NotificationInUse.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D512468275BA5E10095DE5A /* ContentView.swift in Sources */,
+				9D512481275BA9890095DE5A /* NotificationInUse.swift in Sources */,
 				9D512466275BA5E10095DE5A /* ViewBuilderDemosApp.swift in Sources */,
+				9D51247D275BA7580095DE5A /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +337,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D512469275BA5E10095DE5A /* ContentView.swift in Sources */,
+				9D512482275BA9890095DE5A /* NotificationInUse.swift in Sources */,
 				9D512467275BA5E10095DE5A /* ViewBuilderDemosApp.swift in Sources */,
+				9D51247E275BA7580095DE5A /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
