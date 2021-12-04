@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            NotificationInUse()
+        NavigationView {
+            List {
+                NavigationLink(destination: { NotificationInUse() }, label: { Text("Notification In Use") })
+            }
         }
     }
 }
