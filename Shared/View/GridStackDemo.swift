@@ -23,5 +23,6 @@ struct GridStackDemo: View {
 struct GridStackDemo_Previews: PreviewProvider {
     static var previews: some View {
         GridStackDemo()
+.previewInterfaceOrientation(.portraitUpsideDown)
     }
 }
