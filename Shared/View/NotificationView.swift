@@ -25,7 +25,7 @@ struct NotificationView<Content: View>: View {
     var body: some View {
         content
             .padding()
-            .background(Color(.tertiarySystemBackground))
+            .background(Color(.yellow))
             .cornerRadius(16)
             .transition(.move(edge: .top))
             .animation(.spring())
